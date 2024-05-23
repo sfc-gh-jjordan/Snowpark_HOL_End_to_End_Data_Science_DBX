@@ -1,0 +1,9 @@
+{
+    "username": "user1",
+    "password": "$nowpark@_Walgreens!",
+    "account": "SNQGMDL-WALGREENSHEALTH_NPROD",
+    "database": "hol",
+    "role": "role1",
+    "warehouse": "wh1",
+    "schema": "schema1"
+ }
