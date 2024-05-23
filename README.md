@@ -3,6 +3,7 @@ Github Repo is: https://github.com/sfc-gh-jjordan/Snowpark_HOL_End_to_End_Data_S
 Step 1: Import the Image Files into DBFS
 Note:  Only 1 user needs to perform this as the path can be shared in each user’s notebook
 Upload the .png image files that reside in the assets folder in the github repo into DBFS and note the path to be updated in the workbook
+
 Step 2: Import the requirements.txt to your Workspace
 Note:  Only 1 user needs to perform this as the path can be shared in each user’s notebook
 Import the requirements.txt file containing the packages to pip install
@@ -10,6 +11,7 @@ In the first cell modify the path to the correct location of the requirements.tx
 
 Step 3: Import the Hands On Lab Notebook to your Workspace
 Import the Notebook named: End_to_End_Data_Science_using_Snowpark_Easy_Path_DBx.py into your workspace in Databricks.
+
 Step 4: Import the authentication json file to your Workspace
 Import the hol_auth.json file into your workspace in Databricks.
 Modify the number you were assigned to for the user, role, warehouse and schema.
