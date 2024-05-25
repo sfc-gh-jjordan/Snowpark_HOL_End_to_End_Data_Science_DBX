@@ -134,7 +134,7 @@ if st.button(":blue[Update]"):
         predictions = predictions_sdf.to_pandas()
  
     # Plot on a map
-    st.subheader("Predicted Shift Sales for position")
+    st.subheader("Predicted Shift Sales by Location")
     predictions["PRED_SHIFT_SALES"].clip(0, inplace=True)
     st.pydeck_chart(
         pdk.Deck(
