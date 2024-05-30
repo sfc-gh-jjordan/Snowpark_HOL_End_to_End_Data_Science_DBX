@@ -45,7 +45,7 @@ call utility.public.loopquery('grant role roleXXX to role accountadmin;', $num_u
 
 -- grant account permissions
 grant create warehouse on account to role hol_parent;
-grant usage on warehouse setup_wh to role hol_parent;
+grant usage on warehouse hol_setup_wh to role hol_parent;
 
 -- set up the warehouses and grant permissions
 call utility.public.loopquery('create or replace warehouse whXXX warehouse_size = \'xsmall\' AUTO_SUSPEND = 300;', $num_users);
